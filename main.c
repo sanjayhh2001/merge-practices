@@ -11,9 +11,9 @@ int main()
     scanf("%d %d",&num1,&num2);
 
     int Sum = add(num1,num2);
-    int Sub = add(num1,num2);
+    int Sub = sub(num1,num2);
 
-    printf("The addition is: %d",Sum);
+    printf("The addition is: %d\n",Sum);
     printf("The Subtraction is: %d",Sub);
 
     return 0;
